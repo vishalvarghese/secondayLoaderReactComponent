@@ -1,0 +1,51 @@
+.outerDivStyle{
+    width: 100%;
+     height: 100%;
+      background-color:black; 
+      display: flex;
+       justify-content: center; 
+       align-items: center; 
+}
+
+.imageStyle {
+    width: 33rem;
+  }
+  .imgdivStyle{
+    display: flex;
+     justify-content: center;
+      align-items: center; 
+      position: absolute; 
+      width: 100%;
+     height: 100%;
+  }
+  .canvasStyle {
+    display: block;
+    width: 350;
+    height: 350;
+    border-radius: 50%;
+    @media (max-width: 600px) {
+        width: 200 !important;
+        height: 200 !important;
+        border-radius: 50%;
+    }
+  }
+
+  .coreserStyle{
+    position: absolute;
+        display: flex;
+        justify-content: center;
+        font-size: 78px;
+        font-family: "sfPro";
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-size: cover;
+        background-image: linear-gradient(45deg, #00F5B1, #00E9E0);
+        @media (max-width: 600px) {
+            font-size: 56px !important;
+        }
+    }
+  @font-face {
+    font-family: "sfPro";
+    src: url(../public/fonts/SF-Pro-Display-Thin.otf);
+  }
